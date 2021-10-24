@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `huseinnashr.github.io`,
+    title: `huseinnashr.me`,
     description: `Opening up! and let's see what's the world has to offer`,
     author: `@huseinnashr`,
-    siteUrl: `https://huseinnashr.github.io/`,
+    siteUrl: `https://huseinnashr.me/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +15,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/src/blogs`,
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

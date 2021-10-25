@@ -11,6 +11,6 @@ When i was trying to sell the laptop, there was already a couple of people inter
 
 The second thing is choose JNE only shipping if you want to ship with wooden packing and don't plan to D.I.Y the packing yourself. JNE offer packing option with an extra cost at least when i ship the laptop.
 
-When i was trying to sell the laptop, the buyer choose other shipping company because it was available as an option. It turns out the company didn't provide wooden packing as an option and i need to packed it myself. After i asked the Customer Service, i decided to go JNE. I was able to change the shipping method in tokopedia but i wasted like 100k. I also need to deliver the package to JNE myself instead of to be picked at home if use the chosen shipping method.
+When i was trying to sell the laptop, the buyer choose other shipping company because it was available as an option. It turns out the company didn't provide wooden packing as an option and i need to packed it myself. After i asked the customer service, they told me to go to JNE because they likely have to option. It turns out it's true. I used it and have to change the shipping method in tokopedia but i wasted like 100k. I also need to deliver the package to JNE myself, different from other shipping method that will picked my package at home.
 
 Thanks Andi for tagging along

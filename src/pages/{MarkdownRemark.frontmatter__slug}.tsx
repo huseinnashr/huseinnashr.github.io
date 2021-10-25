@@ -1,5 +1,7 @@
 import * as React from "react"
 import { graphql, PageProps } from "gatsby"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 type DataProps = {
   markdownRemark: {
@@ -14,16 +16,19 @@ type DataProps = {
 
 const Template: React.FC<PageProps<DataProps>>  = ({ data: { markdownRemark: { frontmatter, html } } }) => {
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+    <Layout>
+      <Seo title={frontmatter.title} />
+      <div className="blog-post-container">
+        <div className="blog-post">
+          <h1>{frontmatter.title}</h1>
+          <h2>{frontmatter.date}</h2>
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 
